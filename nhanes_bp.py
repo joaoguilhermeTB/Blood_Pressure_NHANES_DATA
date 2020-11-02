@@ -1,4 +1,4 @@
-#code to analyze the data from 99-00 to 17-18 for blood preassure from NHANES.
+#code to analyze the data from 99-00 to 17-18 for blood pressure from NHANES.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', 12, 'display.max_colwidth', 3, 'display.exp
 demo_list = ['DEMO_99_00.XPT', 'DEMO_B_01_02.XPT', 'DEMO_C_03_04.XPT', 'DEMO_D_05_06.XPT', 'DEMO_E_07_08.XPT',\
  'DEMO_F_09_10.XPT', 'DEMO_G_11_12.XPT', 'DEMO_H_13_14.XPT', 'DEMO_I_15_16.XPT', 'DEMO_J_17_18.XPT'] #list of demographic XPT files data
 bpx_list = ['BPX_99_00.XPT', 'BPX_B_01_02.XPT', 'BPX_C_03_04.XPT', 'BPX_D_05_06.XPT', 'BPX_E_07_08.XPT','BPX_F_09_10.XPT',\
- 'BPX_G_11_12.XPT', 'BPX_H_13_14.XPT', 'BPX_I_15_16.XPT', 'BPX_J_17_18.XPT'] #list of cardiovascular XPT files data
+ 'BPX_G_11_12.XPT', 'BPX_H_13_14.XPT', 'BPX_I_15_16.XPT', 'BPX_J_17_18.XPT'] #list of blood pressure XPT files data
 year = ['1999-2000', '2001-2002', '2003-2004', '2005-2006', '2007-2008', '2009-2010','2011-2012', '2013-2014', '2015-2016', '2017-2018']
 #list of years.
 
