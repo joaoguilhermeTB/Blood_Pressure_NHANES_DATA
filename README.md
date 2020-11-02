@@ -7,7 +7,8 @@ Demographic Data 1999-2000
 DEMO_99_00.XPT
 https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/DEMO.XPT
 Demographic Data 2001-2002
-DEMO_B_01_02.XPT = https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/DEMO_B.XPT
+DEMO_B_01_02.XPT
+https://wwwn.cdc.gov/Nchs/Nhanes/2001-2002/DEMO_B.XPT
 Demographic Data 2003-2004
 DEMO_C_03_04.XPT = https://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/DEMO_C.XPT
 Demographic Data 2005-2006
