@@ -1,5 +1,5 @@
 # Blood_Pressure_NHANES_DATA
-Avaliation of systolic and diastolic blood pressure over gender and age bands from NHANES data.
+Evaluation of systolic and diastolic blood pressure over gender and age bands from NHANES data.
 
 About NHANES: https://www.cdc.gov/nchs/nhanes/about_nhanes.htm
 
