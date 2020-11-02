@@ -153,26 +153,3 @@ for c in range(7):
 	t_value(llist_fd)
 	plt.text(0, lio[6 - c] - 0.005, t_value.t_dif, fontsize = 8, color = 'red')
 plt.show()
-
-
-
-	
-
-
-
-
-
-
-	
-
-
-
-
-	
-
-
-
-
-
-
-
