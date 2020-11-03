@@ -143,7 +143,7 @@ for a in range(9):
 		plt.axvline(100, lw = 0.5, color = 'white', zorder = 0)
 
 	if a == 1:
-		plt.title(('Blood Preassure over age bands and gender'), fontsize= 15)#plotting graphs on matplotlib and seaborn
+		plt.title(('Blood Pressure across age bands and gender'), fontsize= 15)#plotting graphs on matplotlib and seaborn
 		df_table_mg = pd.concat([bs_m.df_table, bd_m.df_table])#Creation of summary table
 		df_table_fg = pd.concat([bs_f.df_table, bd_f.df_table])#Creation of summary table
 
@@ -182,13 +182,10 @@ plt.text(230, lio[1], '[60-70 years]')
 plt.text(230, lio[0], '[70-80 years]')
 plt.text(169, 0.47, 't Age', fontsize = 10, color = 'black')
 plt.text(-1, 0.47, 't Age', fontsize = 10, color = 'black')
-plt.xlabel('Blood Preassure(mmHg)')
+plt.xlabel('Blood Pressure(mmHg)')
 
 df_table_t = pd.concat([df_table_mtotal, df_table_ftotal], axis = 1)#Creation of summary table
 print(df_table_t)
-
-
-
 
 for c in range(7):#plotting graphs on matplotlib and seaborn
 	llist_ms = [main_list_sistolic_m[c+1], main_list_sistolic_m[c]]
