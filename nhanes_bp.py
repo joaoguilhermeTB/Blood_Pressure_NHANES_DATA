@@ -1,4 +1,4 @@
-#code to analyze the data from 99-00 to 17-18 for blood preassure from NHANES.
+#code to analyze the data from 99-00 to 17-18 for blood preassure from NHANES considering age and gender.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
